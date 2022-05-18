@@ -11,6 +11,6 @@ class Solution(object):
                 sum+=j
             l.append(sum) 
             
-        l.sort()
-        return l[-1]
+        
+        return sorted(l)[-1]
         

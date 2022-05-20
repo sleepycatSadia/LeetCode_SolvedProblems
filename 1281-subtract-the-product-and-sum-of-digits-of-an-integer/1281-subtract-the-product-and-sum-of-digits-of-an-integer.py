@@ -4,7 +4,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        n=[int(i) for i in (str(n))]
+        n=list(map(int, str(n)))
         p=1
         for i in n:
             

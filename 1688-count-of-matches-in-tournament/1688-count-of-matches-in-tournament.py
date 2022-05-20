@@ -4,6 +4,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        return n-1
+        """
+        Approach 1
         #n=team count
         #m=match count
         m=0
@@ -19,3 +22,5 @@ class Solution(object):
                     n=(n-1)/2 + 1
 
                 #print('m ',m,' n ',n)
+        """
+        

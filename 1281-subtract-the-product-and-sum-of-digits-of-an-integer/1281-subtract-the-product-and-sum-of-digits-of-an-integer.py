@@ -4,8 +4,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        s,p=0,1
-        for i in list(str(n)):
-            s+=int(i)
+        n=[int(i) for i in (str(n))]
+        p=1
+        for i in n:
+            
             p*=int(i)
-        return p-s    
+        return p-sum(n)    

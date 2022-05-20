@@ -4,4 +4,4 @@ class Solution(object):
         :type num: int
         :rtype: int
         """
-        return int(str(num).replace('6','9',1))
+        return str(num).replace('6','9',1)

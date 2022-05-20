@@ -10,12 +10,11 @@ class Solution(object):
         while(True):
             if n == 1:
                 return m
+            if n % 2 == 0:
+                m+=(n/2)
+                n=n/2
             else:
-                if n % 2 == 0:
-                    m+=(n/2)
-                    n=n/2
-                else:
-                    m+=((n-1)/2)
-                    n=(n-1)/2 + 1
+                m+=((n-1)/2)
+                n=(n-1)/2 + 1
 
                 #print('m ',m,' n ',n)

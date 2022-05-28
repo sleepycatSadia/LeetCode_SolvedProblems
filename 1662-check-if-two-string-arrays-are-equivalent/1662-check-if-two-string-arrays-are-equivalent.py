@@ -5,6 +5,10 @@ class Solution(object):
         :type word2: List[str]
         :rtype: bool
         """
-        return ''.join(word1) ==''.join(word2)
-
-    
+        s1,s2='',''
+        for i in word1:
+            s1+=i
+        for j in word2: 
+            s2+=j
+        if s2==s1: return True
+        return False

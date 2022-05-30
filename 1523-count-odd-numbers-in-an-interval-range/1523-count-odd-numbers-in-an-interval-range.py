@@ -4,5 +4,4 @@ class Solution:
             return int((high-low)/2 + 1 )
         elif low % 2 == 0 and high % 2 == 0 :
             return int((high-low)/2 )
-        else:
-            return int(ceil((high-low)/2))
+        return int(ceil((high-low)/2))
